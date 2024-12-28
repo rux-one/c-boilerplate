@@ -1,9 +1,8 @@
 #include <stdio.h>
-
-#define VERSION "1.0.0"
+#include "version.h"
 
 int main() {
-    printf("Program version: %s\n", VERSION);
+    printf("Program version: %s\n", PROJECT_VERSION);
     return 0;
 }
 
